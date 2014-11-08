@@ -1,0 +1,2 @@
+jquery-next-prev-slideshow
+==========================
