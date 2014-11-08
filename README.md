@@ -1,2 +1,2 @@
-jquery-next-prev-slideshow
+Jquery Next Prev Slideshow
 ==========================

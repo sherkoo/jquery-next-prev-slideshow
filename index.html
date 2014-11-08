@@ -1,0 +1,78 @@
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+    body{
+      width: 600px;
+      margin: 100px auto 0 auto;
+    }
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    ul{
+      list-style: none;
+    }
+
+    ul li {
+      margin: 0;
+      padding: 0;
+    }
+
+    .slider ul{
+      width: 10000px;
+      list-style: none;
+    }
+
+    .slider li{
+      float: left;
+    }
+
+    .slider{
+      width: inherit;
+      height: 300px;
+      overflow: scroll;
+    }
+
+    #slider-nav{
+      margin: 1em 0 0 0;
+      display: none;
+    }
+
+    #slider-nav button{
+      padding: 1em;
+      outline: none;
+      margin-right: 1em;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- slider -->
+  <div class="slider">
+    <ul>
+      <li><img src="img/img1.png"></li>
+      <li><img src="img/img2.png"></li>
+      <li><img src="img/img3.png"></li>
+      <li><img src="img/img4.png"></li>
+    </ul>
+  </div>
+  <!-- slider -->
+
+  <!-- /slider nav -->
+  <div id="slider-nav">
+    <button data-dir="prev">Previous</button>
+    <button data-dir="next">Next</button>
+  </div>
+  <!-- slider nav -->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+
+</body>
+</html>
